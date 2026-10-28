@@ -16,7 +16,7 @@ import {
   Tooltip,
   Typography,
 } from "@mui/material";
-
+import DownloadExtension from "./DownloadExtension";
 import AutoAwesomeRoundedIcon from "@mui/icons-material/AutoAwesomeRounded";
 import AddRoundedIcon from "@mui/icons-material/AddRounded";
 import ContentCopyRoundedIcon from "@mui/icons-material/ContentCopyRounded";
@@ -313,6 +313,15 @@ function App() {
               </Typography>
             </Box>
             <Box className="topbar-right">
+              <Button
+              variant="outlined"
+              onClick={() =>
+              document.getElementById("download-extension")
+               ?.scrollIntoView({ behavior: "smooth" })
+              }
+>
+  Download Extension
+</Button>
               <Chip
                 icon={<AutoAwesomeRoundedIcon />}
                 label="AI writing assistant"
@@ -643,6 +652,7 @@ function App() {
           )}
 
           <Box className="footer-note">
+            <DownloadExtension />
             <Typography>
               MailMuse · Write better emails, with less effort.
             </Typography>

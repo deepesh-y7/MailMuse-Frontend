@@ -1,0 +1,74 @@
+
+.download-section {
+  max-width: 680px;
+  margin: 60px auto;
+  padding: 48px 24px;
+  text-align: center;
+  background: #f7faf8;
+  border: 1px solid #dce8e1;
+  border-radius: 24px;
+  color: #163c2e;
+}
+
+.download-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 20px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  background: #064e3b;
+  color: white;
+  font-size: 32px;
+}
+
+.download-section h2 {
+  margin-bottom: 12px;
+  font-size: 30px;
+}
+
+.download-section p {
+  max-width: 480px;
+  margin: 0 auto 24px;
+  line-height: 1.7;
+  color: #52675d;
+}
+
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 24px;
+  background: #064e3b;
+  color: #fff;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.download-button:hover {
+  background: #022c22;
+  transform: translateY(-2px);
+}
+
+.download-section small {
+  display: block;
+  margin-top: 14px;
+  color: #60756a;
+}
+
+.install-hint {
+  margin-top: 28px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #eaf2ed;
+  font-size: 13px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.install-hint code {
+  font-weight: 600;
+}
