@@ -243,7 +243,7 @@ function App() {
             <AutoAwesomeRoundedIcon />
           </Box>
           <Typography variant="h6" className="brand-name">
-            MailMuse
+            Mailuse
           </Typography>
         </Box>
 
